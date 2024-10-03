@@ -1,3 +1,6 @@
-# test
-Test technical 1
-untuk test run :  pyhton test2.py
+# Cara Menggunakan
+1. Jalankan script dengan command : pyhton test2.py
+2. Masukkan input 
+
+
+# Have Fun Selamat Menggunakan 
