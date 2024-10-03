@@ -1,18 +1,14 @@
-# Fungsi untuk menghasilkan barisan aritmatika
-def aritmatika(start, jumlah, beda):
-    barisan = []
-    for i in range(jumlah):
-        elemen = start + i * beda
-        barisan.append(elemen)
-    return barisan
+def deret(n):
+    awal = 2
+    selisih = 3
+    deret = []
 
-# Input
-start = 2  # nilai awal barisan
-jumlah = 7  # jumlah elemen yang ingin dihasilkan
-beda = 3    # beda antar elemen
+    for i in range(n):
+        deret.append(awal + i * selisih)
+    
+    return deret
 
-# Menghasilkan barisan
-hasil = aritmatika(start, jumlah, beda)
+N = int(input("Masukkan input: "))
 
-# Menampilkan hasil
-print(hasil)
+hasil = deret(N)
+print(", ".join(map(str, hasil)))
